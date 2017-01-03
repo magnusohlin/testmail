@@ -33,10 +33,10 @@ var isDisposable = function (email) {
 var evaluate = function(email) {
   if (!typeCheck(email) || !isValid(email)) {
     return 'invalid'
-  } else if (isFree(email)) {
-    return 'free'
   } else if (isDisposable(email)) {
     return 'disposable'
+  } else if (isFree(email)) {
+    return 'free'
   } else {
     return 'valid'
   }
