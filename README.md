@@ -15,6 +15,7 @@ npm install --save testmail
 
 ```javascript
 var testmail = require('testmail');
+
 testmail.evaluate('foo@bar');
 > 'invalid'
 testmail.evaluate('foobar.com');
