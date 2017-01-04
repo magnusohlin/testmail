@@ -4315,6 +4315,6 @@ var free = [
   'zzn.com',
   'zzom.co.uk',
   'zzz.com'
-]
+];
 
-module.exports = free
+module.exports = free;

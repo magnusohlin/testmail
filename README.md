@@ -18,19 +18,19 @@ npm install --save testmail
 ```javascript
 var testmail = require('testmail');
 
-testmail.evaluate('foo@bar');
+testmail('foo@bar');
 > 'invalid'
-testmail.evaluate('foobar.com');
+testmail('foobar.com');
 > 'invalid'
-testmail.evaluate(123);
+testmail(123);
 > 'invalid'
 
-testmail.evaluate('smith@gmail.com');
+testmail('smith@gmail.com');
 > 'free'
-testmail.evaluate('jack@mailinater.com');
+testmail('jack@mailinater.com');
 > 'disposable'
 
-testmail.evaluate('foo@google.com');
+testmail('foo@google.com');
 > 'valid'
 ```
 

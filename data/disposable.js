@@ -348,6 +348,6 @@ var disposable = [
   'zehnminutenmail.de',
   'zippymail.info',
   'zoemail.net'
-]
+];
 
-module.exports = disposable
+module.exports = disposable;

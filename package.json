@@ -1,7 +1,7 @@
 {
   "name": "testmail",
-  "version": "0.1.1",
-  "description": "Test if an email is from a free or disposable domain",
+  "version": "1.0.0",
+  "description": "Test if an email is valid and from a free or disposable domain",
   "author": "magnusohlin <ma.ohlin@gmail.com>",
   "bugs": {
     "url": "https://github.com/magnusohlin/testmail/issues"
